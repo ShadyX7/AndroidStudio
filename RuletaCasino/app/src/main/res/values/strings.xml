@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">RuletaCasino</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="mayor18">Mayor de 18 años</string>
+    <string name="entra">ENTRAR</string>
+    <string name="dinero">Dinero disponible:</string>
+    <string name="Apuesta">Apostar a:</string>
+    <string name="Rojo">Rojo</string>
+    <string name="Negro" />
+    <string name="negro">Negro</string>
+    <string name="Cantidad">Cantidad a Apostar:</string>
+    <string name="jugar">JUGAR</string>
+    <string name="salir">SALIR</string>
+    <string name="ganador" />
+    <string name="dineroUsuario" />
+    <string name="NumCantidad" />
+    <string name="numCantidad">1</string>
+    <string name="valor0">0</string>
+</resources>

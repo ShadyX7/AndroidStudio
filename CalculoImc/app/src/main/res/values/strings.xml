@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CalculoImc</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="nombre">Nombre:</string>
+    <string name="peso">Peso:</string>
+    <string name="altura">Altura:</string>
+    <string name="calcular">CALCULAR</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ExamTip</string>
+    <string name="impTotal">Total amount:</string>
+    <string name="numComensales">Number of diners:</string>
+    <string name="pagar">PAY</string>
+    <string name="precioPersona">PersonPrize</string>
+    <string name="propina">Tip:</string>
+    <string name="totalPersona">TOTAL TO PAY / PERSON</string>
+    <string name="valorPropina">ValueTip</string>
+</resources>

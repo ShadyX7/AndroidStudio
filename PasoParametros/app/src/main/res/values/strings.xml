@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PasoParametros</string>
+    <string name="Nombre">nombre</string>
+    <string name="nom">Nombre</string>
+    <string name="cajanom" />
+    <string name="color">Color</string>
+    <string name="btnEnviar">Enviar</string>
+    <string name="tColores">Selecciona el color</string>
+    <string-array name="colores">
+        <item>Azul</item>
+        <item>Verde</item>
+        <item>Amarillo</item>
+        <item>Rojo</item>
+    </string-array>
+    <string name="title_activity_secundaria">Datos</string>
+</resources>

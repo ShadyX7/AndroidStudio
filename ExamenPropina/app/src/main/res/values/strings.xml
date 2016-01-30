@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExamenPropina</string>
+    <string name="totalPersona">TOTAL A PAGAR / PERSONA</string>
+    <string name="precioPersona" />
+    <string name="impTotal">Importe total:</string>
+    <string name="numComensales">Numero de comensales:</string>
+    <string name="propina">Propina:</string>
+    <string name="valorPropina">0</string>
+    <string name="pagar">PAGAR</string>
+</resources>

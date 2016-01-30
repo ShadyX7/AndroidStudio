@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CalculadoraHipoteca</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="info">Se aplicara un 3% de interes</string>
+    <string name="eti">Interes</string>
+    <string name="ett">Tiempo en años</string>
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">EntradasTeatro</string>
+    <string name="nombre">Nombre:</string>
+    <string name="sexo">Sexo:</string>
+    <string name="bot_hombre">Hombre:</string>
+    <string name="bot_mujer">Mujer:</string>
+    <string name="num">Num:</string>
+    <string name="menor25">Menor de 25:</string>
+    <string name="discapacidad">Discapacidad</string>
+    <string name="trabajadores">Trabajadores:</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="myname">Victor Lopez</string>
+    <string name="btn_hombre">Hombre</string>
+    <string name="btn_mujer">Mujer</string>
+    <string name="tituloSpinner">Selecciona el numero de entradas</string>
+    <string name="cajatxt1">caja1</string>
+    <string name="cajatxt2" />
+    <string-array name="valoresSpinner">
+        <item>uno</item>
+        <item>dos</item>
+        <item>tres</item>
+        <item>cuatro</item>
+        <item>cinco</item>
+    </string-array>
+</resources>

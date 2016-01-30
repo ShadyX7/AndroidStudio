@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#cdc3ff">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:baselineAligned="false"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/calculadora"
+            android:id="@+id/textView"
+            android:gravity="center_horizontal"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:background="#fff99d"
+            android:textColor="#0005ff"
+            android:textStyle="bold"
+            android:breakStrategy="high_quality" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/numero1"
+                android:id="@+id/textView2"
+                android:autoText="false"
+                android:background="#42ffb5" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/txtn1"
+                android:backgroundTint="#ff1524" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/numero2"
+                android:id="@+id/textView3"
+                android:background="#42ffb5" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/txtn2"
+                android:backgroundTint="#ff1524" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="39dp"
+                android:text="@string/suma"
+                android:id="@+id/btnSuma"
+                android:background="#fffe2a"
+                android:contextClickable="false"
+                android:breakStrategy="high_quality"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="39dp"
+                android:text="@string/resta"
+                android:id="@+id/btnResta"
+                android:layout_weight="0.05"
+                android:background="#fffe2a"
+                android:breakStrategy="high_quality"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="39dp"
+                android:text="@string/multiplicacion"
+                android:id="@+id/btnMulti"
+                android:background="#fffe2a"
+                android:breakStrategy="high_quality"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="39dp"
+                android:text="@string/division"
+                android:id="@+id/btnDiv"
+                android:background="#fffe2a"
+                android:breakStrategy="high_quality"
+                android:elegantTextHeight="false"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/resul"
+            android:id="@+id/txtRes"
+            android:background="#a9ff8f"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

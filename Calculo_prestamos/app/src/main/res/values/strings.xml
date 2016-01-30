@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Calculo_prestamos</string>
+    <string name="capital">Capital:</string>
+    <string name="interes">Interés:</string>
+    <string name="tiempo">Tiempo:</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="mes">MES</string>
+    <string name="cuota">CUOTA</string>
+    <string name="interes2">INTERES</string>
+    <string name="capital2">CAPITAL</string>
+    <string name="cap_amort">CAPITAL AMORTIZADO</string>
+    <string name="cap_amor">AMORTIZADO</string>
+    <string name="cap_pendiente">PENDIENTE</string>
+    <string name="amort_capital">AMORT.</string>
+    <string name="amort_capital2">AMORTIZA</string>
+    <string name="mes2">Mes</string>
+    <string name="cuota2">Cuota</string>
+    <string name="interes21">Interés</string>
+    <string name="capital3">Capital</string>
+    <string name="cap_amor1">Cap_Amort</string>
+    <string name="capitalPendiente">Cap_Pendiente</string>
+    <string name="pendiente2">Pendiente</string>
+</resources>
